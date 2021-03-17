@@ -1,0 +1,5 @@
+#!/bin/bash
+
+LAST= last | grep | 'target' | head -1
+
+echo $LAST
